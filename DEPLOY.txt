@@ -1,0 +1,14 @@
+HOW TO PUBLISH THIS ON GITHUB PAGES
+-----------------------------------
+1. Copy everything from this folder into your local saniya-portfolio project folder
+   (the one that is connected to GitHub). Overwrite if asked. Keep the hidden-looking
+   ".github" folder: it contains the deploy workflow.
+2. In a terminal inside that folder run:
+      git add .
+      git commit -m "Add Pages deploy workflow"
+      git push
+3. On GitHub: Settings -> Pages -> Source -> choose "GitHub Actions".
+4. Open the Actions tab and wait for a green tick (about 1 minute).
+5. Open https://shsaniya04.github.io/ and press Ctrl+Shift+R.
+
+Do NOT upload this .zip file itself to GitHub - GitHub does not unzip it.
